@@ -33,7 +33,7 @@ API Documnetaion
 
 2. Endpoints:
    i. Task Creation:
-     URL: /api/tasks/create/
+     URL: localhost:8000/tasks/create/
      Method: POST
      Headers:
      Content-Type: application/json
@@ -58,7 +58,7 @@ API Documnetaion
        }
 
    ii. Task Assignment:
-      URL: /api/tasks/{task_id}/assign/
+      URL: localhost:8000/tasks/{task_id}/assign/
       Method: PUT
       Headers:
         Content-Type: application/json
@@ -70,7 +70,7 @@ API Documnetaion
        }
 
     iii. User Tasks:
-        URL: /user/tasks/?id={user_id}
+        URL: localhost:8000/user/tasks/?id={user_id}
         Method: GET
         Headers:
           Authorization: Token your_token_here
